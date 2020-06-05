@@ -1,0 +1,117 @@
+:root {
+  --red: #CA292E;
+  --orange: #E2982F;
+  --light-orange: #E5A430;
+  --green: #6F9E57;
+  --light-brown: #A6602F;
+  --dark-brown: #854D2A;
+  --yellow: #EFC130;
+}
+
+.BreadBottom {
+    height: 13%;
+    width: 80%;
+    background: var(--light-orange);
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: inset -1rem 0 var(--orange);
+    margin: 2% auto;
+}
+
+.BreadTop {
+    height: 20%;
+    width: 80%;
+    background: var(--light-orange);
+    border-radius: 50% 50% 0 0;
+    box-shadow: inset -15px 0 var(--orange);
+    margin: 2% auto;
+    position: relative;
+}
+
+.Seeds1 {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    background-color: white;
+    left: 30%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(-20deg);
+}
+
+.Seeds1:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    left: -170%;
+    top: -260%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+  }
+  
+.Seeds1:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    left: 180%;
+    top: -50%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+  }
+
+.Seeds2 {
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  background-color: white;
+  left: 64%;
+  top: 50%;
+  border-radius: 40%;
+  transform: rotate(10deg);
+}
+  
+.Seeds2:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  left: 150%;
+  top: -130%;
+  border-radius: 40%;
+  transform: rotate(90deg);
+}
+  
+.Meat {
+  width: 80%;
+  height: 8%;
+  background: var(--dark-brown);
+  margin: 2% auto;
+  border-radius: 1rem;
+}
+
+.Cheese {
+  width: 90%;
+  height: 4.5%;
+  margin: 2% auto;
+  background: var(--yellow);
+  border-radius: 20px;
+}
+
+.Salad {
+  width: 85%;
+  height: 7%;
+  margin: 2% auto;
+  background: var(--green);
+  border-radius: 2rem;
+}
+
+.Bacon {
+  width: 80%;
+  height: 3%;
+  background: var(--red);
+  margin: 2% auto;
+}
