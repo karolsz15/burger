@@ -16,10 +16,10 @@ The app is fully responsive, it works properly on desktop and mobile phones.
 <img src="screenshots/desktop-modal.png" alt="desktop modal view" height="50%"/> <hr/>
 
 ### 3. Mobile - landsape view
-<img src="screenshots/mobile-landsacpe.png" alt="mobile landscape view" height="50%"/> <hr/>
+<img src="screenshots/mobile-landscape.png" alt="mobile landscape view" width="50%"/> <hr/>
 
 ### 4. Mobile - portrait view
-<img src="screenshots/mobile-portrait.png" alt="mobile portrait view" height="50%"/> <hr/>
+<img src="screenshots/mobile-portrait.png" alt="mobile portrait view" width="50%"/> <hr/>
 
 ### 5. Mobile - popup modal view
-<img src="screenshots/mobile-modal.png" alt="mobile modal view" height="50%"/> <hr/>
+<img src="screenshots/mobile-modal.png" alt="mobile modal view" width="50%"/> <hr/>
