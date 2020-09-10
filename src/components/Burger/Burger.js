@@ -6,10 +6,13 @@ import BurgerIngredient from './BurgerIngredient/BurgerIngredient';
 const burger = ( props ) => {
     let transformedIngredients = Object.keys( props.ingredients )
         .map( igKey => {
+            // noone use Array as a constructor of array
+            // [...Array(...ingredients)] is useless you can do it like that [...ingredients] - that's the copy
             return [...Array( props.ingredients[igKey] )].map( ( _, i ) => {
                 return <BurgerIngredient key={igKey + i} type={igKey} />;
             } );
         } )
+        // merge map and reduce
         .reduce((arr, el) => {
             return arr.concat(el)
         }, []);

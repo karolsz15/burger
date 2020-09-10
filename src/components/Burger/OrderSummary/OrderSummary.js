@@ -6,6 +6,7 @@ import Button from '../../UI/Button/Button';
 const orderSummary = (props) => {
    
         const ingredientSummary = Object.keys( props.ingredients )
+            // `key` or `ingredientKey`
             .map( igKey => {
                 return (
                     <li key={igKey}>
@@ -14,6 +15,7 @@ const orderSummary = (props) => {
             } );
 
         return (
+            // <React.Fragment>
             <Aux>
                 <h3>Your Order:</h3>
                 <p>You are going to order a burger with the following ingredients:</p>

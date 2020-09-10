@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
+// God bless you!
 import PropTypes from 'prop-types';
 
 import classes from './BurgerIngredient.module.css';
+
+// definetelly not Class component
+
+/**
+ * move switch to method and define it outside of the component
+ * it shouldn't be defined on every re-render
+ */
+
+// implement me!
+const getIngredient = (type) => {}
 
 class BurgerIngredient extends Component {
     render () {
